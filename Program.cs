@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -129,7 +129,7 @@ namespace ProxyList.to_Proxy_Checker
                     if (srctype == "1")
                     {
                         noapi = false;
-                        System.Diagnostics.Process.Start("https://proxylist.to/dashboard/");
+                        System.Diagnostics.Process.Start("https://proxylist.to/login/?ref=proxychecker_github");
                     }
                     if (srctype == "2")
                     {
